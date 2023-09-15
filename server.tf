@@ -11,7 +11,7 @@ provider "aws" {
 region = "us-east-1"
 }
 resource "aws_instance" "myawsserver" {
-  ami = "ami-0f844a9675b22ea32"
+  ami = "ami-0f844a9675b22ea32"              #Region Specifi AMI
   instance_type = "t2.micro"
   key_name = "swapnil-import"
 
